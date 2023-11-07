@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body style="background-color: #D0DAD5;">
+    <header>
+        <div class="logo">
+            <img src="img/Logo.jpg" alt="Renacimiento"> 
+            
+        </div>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Servicios</a>
+            <a href="#">Acerca de nosotros</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+<main>
+    
+    <div class="login-container">
+        <h2>Iniciar sesión</h2>
+        <form action="submit" method="post">
+            <input type="text" placeholder="Nombre de usuario o correo electrónico" name="username" required><br>
+            <input type="password" placeholder="Contraseña" name="password" required><br>
+            <button type="submit" >Iniciar sesión</button>
+        </form>
+        <br>
+        <a href="inicio.html">¿Olvidaste tu contraseña?</a>
+    </div>
+
+    <div class="sidebar">
+        <!-- Contenido del segundo cuadro (sidebar) -->
+        <h2>¿No tienes cuenta?</h2>
+        <p>Registrate para saber más de nuestros productos y servicios</p>
+        <br>
+        <a type="submit" href="registroCliente.html" >Crear una cuenta</a>
+    </div>
+    
+</main>
+
+<div class="contenedor-flex">
+    <div class="recuadro">
+        <img src="img/ac.png" alt="Imagen 1">
+            <p>Atencion directa con nuestro personal todo el tiempo</p>
+    </div>
+    <div class="recuadro">
+        <img src="img/co.png" alt="Imagen 2">
+            <p>Cotizacion de nuestros productos o proyectos personales desde la comodidad de tu hogar</p>
+    </div>
+    <div class="recuadro">
+        <img src="img/cp.png" alt="Imagen 3">
+            <p>Tu propio espacio personal, comodo y seguro</p>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="search-container">
+            <p>Quieres para recibir nuestras ultimas ofertas?</p>
+            <input type="text" id="searchInput" placeholder="Email">
+            <button onclick="buscar()">Subscribirse</button>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
