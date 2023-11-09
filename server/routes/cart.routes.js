@@ -18,7 +18,7 @@ const cartRouter = express.Router();
 
 cartRouter.use(protectSession);
 cartRouter.post("/add-product", validateQuantityProduct, addProductUser);
-cartRouter.get("/:id", getAllProduct);
+cartRouter.get("/products-cart", getAllProduct);
 cartRouter.patch("/update-cart", validateQuantityProduct, updateCart);
 cartRouter.delete("/:productId", deleteCart);
 cartRouter.post("/purchase", newPurchase);

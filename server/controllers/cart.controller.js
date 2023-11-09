@@ -50,9 +50,27 @@ const addProductUser = catchAsync(async (req, res, next) => {
 });
 
 const getAllProduct = catchAsync(async (req, res, next) => {
-  //   const { id } = req.params;
-  const cart = ProductsInCart.findAll();
-  res.status(201).json({ status: "succes", cart });
+  const { userSession } = req;
+  const cart = await Cart.findOne({
+    where: { userId: userSession.id, status: "active" },
+  });
+  const productsInCartUser = await ProductsInCart.findAll({
+    where: { cartId: cart.id },
+  });
+  const products = [];
+  const productsInfoPromises = productsInCartUser.map(async (productId) => {
+    const product = await Products.findOne({
+      where: { id: productId.productId },
+    });
+    products.push({
+      product: product.title,
+      description: product.description,
+      precio: product.price,
+      cantidad: productId.quantity,
+    });
+  });
+  await Promise.all(productsInfoPromises);
+  res.status(201).json({ status: "succes", products });
 });
 const updateCart = catchAsync(async (req, res, next) => {
   const { newQty } = req.body;
