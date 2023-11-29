@@ -1,103 +1,112 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: black;">
+<html lang="en" >
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar sesión</title>
-    <link rel="stylesheet" href="css/header.css">
-
-    <link rel="stylesheet" href="css/dropdown.css">
-    <link rel="stylesheet" href="css/acordeon.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../css/dropdown.css">
+    <link rel="stylesheet" href="../css/acordeon.css">
+    <link rel="stylesheet" href="../css/footer.css">
 
 </head>
 
-<body ">
+<body style="background-color: #D0DAD5;">
     
-    <header>
-        <div class="logo">
-            <img src="img/Logo.jpg" alt="Renacimiento"> 
-            
-        </div>
-        <div id="reloj">
-            <span id="zona-horaria"> </span>  |
-            <span id="hora"></span>
-        </div>
-        <nav>
-           
-            <a href="inicio.html">Inicio</a>
-            
-            <div class="perfil-dropdown">
-                <img src="img/fotoPerfil.jpg" alt="Foto de Perfil">
-                <div class="dropdown-content">
-                    <a href="#">Perfil</a>
-                    <a href="#">Configuración</a>
-                    <a href="#">Cerrar Sesión</a>
-            </div>
-            </nav>
-        </nav>
-    </header>
-
-<main>
+    <header class="p-3 mb-3 border-bottom" style="background-color: #fff;">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
     
-    <div class="contenedor-flex">
-        <div class="acordeon">
-            <div class="item">
-                <div class="titulo">
-                    <span class="flecha">▶</span> Productos
-                </div>
-                <div class="contenido">
-                    Cortinas
-                     </div>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="inicio.html" class="nav-link px-2 link-primary">Inicio</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="dropdown text-end">
+              <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+              </a>
+              <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="../pages/UpdateData.html">Actualizar Datos</a></li>
+                <li><a class="dropdown-item" href="../pages/DataCash.html">Actualizar Forma De Pago</a></li>
+                <li><a class="dropdown-item" href="../pages/Profile.html">Mi Informacion</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Salir del perfil</a></li>
+              </ul>
             </div>
-            <div class="item">
-                <div class="titulo">
-                    <span class="flecha">▶</span> Servicios
-                </div>
-                <div class="contenido">
-                    Contizaciones 
+          </div>
+      </header>
+      <div class="container">
+        <div class="row">
+            <main>
+    
+                <div class="contenedor-flex">
+                    <div class="acordeon">
+                        <div class="item">
+                            <div class="titulo">
+                                <span class="flecha">▶</span> Productos
+                            </div>
+                            <div class="contenido">
+                                Cortinas
+                                 </div>
+                        </div>
+                        <div class="item">
+                            <div class="titulo">
+                                <span class="flecha">▶</span> Servicios
+                            </div>
+                            <div class="contenido">
+                                Contizaciones 
+                            </div>
+                            
+                        </div>
+                        <div class="item">
+                            <div class="titulo">
+                                <span class="flecha">▶</span> Mas
+                            </div>
+                            <div class="contenido">
+                                Contenido 
+                            </div>
+                            
+                        </div>
+                    </div>
+            
+                    <div class="contenido-derecha">
+                        <h2> Productos </h2>
+            
+                        <div class="tarjetas-producto">
+                            <div class="tarjeta">
+                                <img src="img/cortina.jpg" alt="Producto 1">
+                                <h3>Cortina</h3>
+                                <p>Descripción del Producto 1.</p>
+                                
+                            </div>
+                            <div class="tarjeta">
+                                <img src="img/cortina.jpg" alt="Producto 2">
+                                <h3>Cortina 2</h3>
+                                <p>Descripción del Producto 2.</p>
+                                
+                            </div>
+                            <div class="tarjeta">
+                                <img src="img/cortina.jpg" alt="Producto 2">
+                                <h3>Cortina 3</h3>
+                                <p>Descripción del Producto 3.</p>
+                                
+                            </div>
+                           
+                        </div>
+                    </div>
                 </div>
                 
-            </div>
-            <div class="item">
-                <div class="titulo">
-                    <span class="flecha">▶</span> Mas
-                </div>
-                <div class="contenido">
-                    Contenido 
-                </div>
-                
-            </div>
+            </main>
         </div>
-
-        <div class="contenido-derecha">
-            <h2> Productos </h2>
-
-            <div class="tarjetas-producto">
-                <div class="tarjeta">
-                    <img src="img/cortina.jpg" alt="Producto 1">
-                    <h3>Cortina</h3>
-                    <p>Descripción del Producto 1.</p>
-                    
-                </div>
-                <div class="tarjeta">
-                    <img src="img/cortina.jpg" alt="Producto 2">
-                    <h3>Cortina 2</h3>
-                    <p>Descripción del Producto 2.</p>
-                    
-                </div>
-                <div class="tarjeta">
-                    <img src="img/cortina.jpg" alt="Producto 2">
-                    <h3>Cortina 3</h3>
-                    <p>Descripción del Producto 3.</p>
-                    
-                </div>
-               
-            </div>
-        </div>
-    </div>
-    
-</main>
+      </div>
 
 <footer>
     <p><b>© 2023 Renacimiento Nueva Era. Todos los derechos reservados.</b></p>
@@ -105,7 +114,7 @@
     <ol><a href="#">Acerca de nosotros</a></ol>
     
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="js/acordeon.js"></script>
 <script src="js/horas.js"></script>
 

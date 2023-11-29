@@ -29,6 +29,7 @@
     flex: 1;
     padding: 20px;
    margin-left: 20px;
+   
 }
 
 h2 {
@@ -47,11 +48,13 @@ color: #f1f1f1;
 .tarjetas-producto {
     flex: 1; /* Las tarjetas ocupan el espacio restante */
     display: flex;
+    
     flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea si no hay espacio suficiente */
     justify-content: space-around; /* Espaciado uniforme entre las tarjetas */
 }
 
 .tarjeta {
+    
     width: 250px; /* Ancho de cada tarjeta */
     padding: 20px;
     border: 1px solid #333;
@@ -63,4 +66,7 @@ color: #f1f1f1;
 .tarjeta img{
     width: 200px;
     height: 200px;
+}
+.tarjetas-producto >*,.contenido-derecha>*{
+   color: #333;
 }
