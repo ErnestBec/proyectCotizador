@@ -1,0 +1,194 @@
+[33mcommit bccc6a920bde7cd1432ab360346907450f8a5813[m[33m ([m[1;36mHEAD -> [m[1;32mLuis-Rene[m[33m, [m[1;31morigin/Luis-Rene[m[33m)[m
+Author: Sren94 <stroop94@gmail.com>
+Date:   Tue Nov 28 21:57:16 2023 -0600
+
+    Cambios del dia 28/11/2023
+
+[33mcommit b363bd0c12fd39024cba2d49cc84e8fe439b0937[m
+Author: Sren94 <stroop94@gmail.com>
+Date:   Sun Nov 26 22:13:26 2023 -0600
+
+    Cambios del dia 26/11/2023
+
+[33mcommit 58f66b6a0d819605ce86930e10e936e143b299a8[m
+Author: Sren94 <stroop94@gmail.com>
+Date:   Tue Nov 7 23:47:37 2023 -0600
+
+    PruebaRene2
+
+[33mcommit 612c94fb3e14d0fa6d9defaaec51d43ee30bb95a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 39dea5e 37a5111
+Author: Sren94 <stroop94@gmail.com>
+Date:   Tue Nov 7 23:41:57 2023 -0600
+
+    PruebaRene
+
+[33mcommit 37a51114d569cd2ea30e2bc5d7dfa60e8fec116a[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Tue Nov 7 23:37:09 2023 -0600
+
+    Delete .vscode directory
+
+[33mcommit 1c5854f37f7185f0785039dcb23c1f1ee1d3fd6b[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Tue Nov 7 23:36:33 2023 -0600
+
+    Delete Views directory
+
+[33mcommit b729780e3d58c8d10fb53556b8e2af8a854fb19f[m
+Merge: 6e5031a 2717c77
+Author: Sren94 <stroop94@gmail.com>
+Date:   Tue Nov 7 23:14:27 2023 -0600
+
+    Merge branch 'Luis-Rene' of https://github.com/ErnestBec/proyectCotizador into Luis-Rene
+
+[33mcommit 2717c77a3343d9420b918b8c24022ee6af6df73a[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Tue Nov 7 23:12:09 2023 -0600
+
+    Delete package.json
+
+[33mcommit 156dd4acfbb2b9b375e4a4d242d270f4ae06658c[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Tue Nov 7 23:12:03 2023 -0600
+
+    Delete package-lock.json
+
+[33mcommit f661c9565b1227bb56c8ac44984a338ddfb94ee8[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Tue Nov 7 23:11:56 2023 -0600
+
+    Delete next.config.js
+
+[33mcommit 3aa71f03da5b84d810c1791fa8ac0ff93135c33f[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Tue Nov 7 23:11:50 2023 -0600
+
+    Delete jsconfig.json
+
+[33mcommit 51c61153cf8ca5612810a8db2f3f7d2bd3848bc0[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Tue Nov 7 23:11:44 2023 -0600
+
+    Delete README.md
+
+[33mcommit 07b7d458bf3dabf3bdc2a9e813760b16b7dc12b6[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Tue Nov 7 23:11:34 2023 -0600
+
+    Delete .gitignore
+
+[33mcommit 5ba3b91681dbd1435cdbd5cb37171e038f853b22[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Tue Nov 7 23:11:25 2023 -0600
+
+    Delete .eslintrc.json
+
+[33mcommit 33b78d2b8fa2d5206ab94995a368e8f65ef3d774[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Tue Nov 7 23:11:09 2023 -0600
+
+    Delete src/app directory
+
+[33mcommit 6e5031aeb2ff304a1e5b2f1c78eaba8e7c86e83e[m
+Merge: 8e26b17 78fb8db
+Author: Sren94 <stroop94@gmail.com>
+Date:   Tue Nov 7 23:09:18 2023 -0600
+
+    Merge branch 'Luis-Rene' of https://github.com/ErnestBec/proyectCotizador into Luis-Rene
+
+[33mcommit 8e26b17680b611db4709becace3d4ae8b6bed4a7[m
+Author: Sren94 <stroop94@gmail.com>
+Date:   Tue Nov 7 23:09:03 2023 -0600
+
+    Primera Version
+
+[33mcommit 78fb8db89c57c4526ba20532a2674d6a7cced074[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Tue Nov 7 23:07:13 2023 -0600
+
+    Delete public directory
+
+[33mcommit 39dea5e95bbe95aa2383b01cb81796bd249cbbef[m
+Author: AlfonsoGUA <Alfonsogucr@gmail.com>
+Date:   Tue Nov 7 21:53:16 2023 -0600
+
+    Correcion de enlaces
+
+[33mcommit edda0e330e9093c73a3c793a97a05c3524069f2f[m
+Author: ErnestBec <becedom.156@gmail.com>
+Date:   Tue Nov 7 00:03:39 2023 -0600
+
+    create proyect fullstack
+
+[33mcommit 53c7096d2190f1c6fe374568b798c0a0e057b11a[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Mon Nov 6 23:33:39 2023 -0600
+
+    Delete Renacimiento directory
+
+[33mcommit 337fd61af96b77944463e95e975ba6f6463432c9[m
+Author: AlfonsoGUA <133536010+AlfonsoGUA@users.noreply.github.com>
+Date:   Mon Nov 6 23:19:27 2023 -0600
+
+    Add files via upload
+
+[33mcommit bcbe248a3b01751306b5172df54307f350094227[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Mon Nov 6 22:57:57 2023 -0600
+
+    Delete package.json
+
+[33mcommit 4ea211e16751055e1755561771198ef30784e3da[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Mon Nov 6 22:57:03 2023 -0600
+
+    Delete package-lock.json
+
+[33mcommit 5dc927b25a06b7ab5809c87d8037564a34aecc87[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Mon Nov 6 22:56:44 2023 -0600
+
+    Delete next.config.js
+
+[33mcommit f9edec37430505989b0532f43ebc55e03f6e673c[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Mon Nov 6 22:56:35 2023 -0600
+
+    Delete jsconfig.json
+
+[33mcommit 7553931bf4516f8e848e116ca22a9128d0e78744[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Mon Nov 6 22:56:25 2023 -0600
+
+    Delete README.md
+
+[33mcommit dbddd8e4dfb155b6a5752cd3cdfd43b5de547aee[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Mon Nov 6 22:56:15 2023 -0600
+
+    Delete .gitignore
+
+[33mcommit 014f40d46ebdafe4e9b241205bc80e30c38c4101[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Mon Nov 6 22:55:58 2023 -0600
+
+    Delete .eslintrc.json
+
+[33mcommit 2579e99e050a8c51b6bf5df86803f0023a0cf2cc[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Mon Nov 6 22:55:44 2023 -0600
+
+    Delete src/app directory
+
+[33mcommit 0ef2e1e631b8af46bee05566671609b22bda9cf4[m
+Author: ErnestBec <95007019+ErnestBec@users.noreply.github.com>
+Date:   Mon Nov 6 22:50:47 2023 -0600
+
+    Delete public directory
+
+[33mcommit 0337505aa82ef0f8bffced473e2b402e20fb220d[m[33m ([m[1;31morigin/Alfonso-Abraham[m[33m, [m[1;32mAlfonso-Abraham[m[33m)[m
+Author: ErnestBec <becedom.156@gmail.com>
+Date:   Mon Sep 4 16:07:10 2023 -0500
+
+    Initial commit from Create Next App
